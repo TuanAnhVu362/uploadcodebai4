@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.essay {}
+
+.topic1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.topic1 h1 {
+    width: 60%;
+}
+
+.greybg {
+    background-color: rgb(206, 196, 196);
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 280px;
+    margin-top: 14px;
+}
+
+.greybg p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 60px;
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topic2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.topic2 h3 {
+    width: 60%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.content p {
+    width: 60%;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.click button {
+    background-color: rgb(1, 201, 201);
+    border: solid transparent 1px;
+    padding: 15px 40px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.click button:hover {
+    background-color: rgb(14, 165, 165);
+}
